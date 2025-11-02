@@ -13,7 +13,7 @@ public class ConversorServidor{
 
              Registry registry = LocateRegistry.createRegistry(1099);
              registry.rebind("Conversor", stub);
-             System.out.println("SErvidor Pronto ... ");
+             System.out.println("Servidor Pronto ... ");
             
         } catch (Exception e) {
             System.err.println("Server exception: " + e.toString());
